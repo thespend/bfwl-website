@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>博峰物流 - 专业运输服务</title>
+    <style>
+        :root {
+            --primary-blue: #1a73e8;
+            --secondary-blue: #63a4ff;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .header {
+            background: var(--primary-blue);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        .nav {
+            background: var(--secondary-blue);
+            padding: 1rem;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section {
+            margin: 3rem 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .contact {
+            background: #f5f5f5;
+            padding: 2rem;
+            text-align: center;
+        }
+        .track-btn {
+            background: var(--primary-blue);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>博峰物流</h1>
+        <p>安全可靠 · 使命必达</p>
+    </div>
+
+    <div class="nav">
+        <a href="#about">关于我们</a>
+        <a href="#service">主营业务</a>
+        <a href="#contact">联系我们</a>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2 id="about">我们的实力</h2>
+            <div class="gallery">
+                <img src="truck1.jpg" alt="运输车队">
+                <img src="truck2.jpg" alt="仓储中心">
+                <img src="truck3.jpg" alt="物流网络">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 id="service">主营业务</h2>
+            <ul>
+                <li>普货运输：点发全国</li>
+                <li>大宗货物：专业重型卡车运输</li>
+                <li>跨境物流：覆盖东南亚全境</li>
+            </ul>
+        </div>
+
+        <div class="contact" id="contact">
+            <h2>联系我们</h2>
+            <p>地址：湖南省长沙市岳麓区</p>
+            <p>电话：400-123-4567</p>
+            <a href="https://www.kuaidi100.com" class="track-btn" target="_blank">查询物流单号</a>
+        </div>
+    </div>
+</body>
+</html>
